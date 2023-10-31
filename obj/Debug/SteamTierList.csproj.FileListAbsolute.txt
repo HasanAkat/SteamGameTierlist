@@ -1,0 +1,15 @@
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\SteamTierList.exe.config
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\SteamTierList.exe
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\SteamTierList.pdb
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.csproj.AssemblyReference.cache
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.Form1.resources
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.Properties.Resources.resources
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.csproj.GenerateResource.cache
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.csproj.CoreCompileInputs.cache
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.exe
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.pdb
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\Newtonsoft.Json.dll
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\Newtonsoft.Json.xml
+D:\Yazılım Projeleri\SteamTierList\obj\Debug\SteamTierList.csproj.CopyComplete
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\System.Data.SqlClient.dll
+D:\Yazılım Projeleri\SteamTierList\bin\Debug\System.Data.SqlClient.xml
