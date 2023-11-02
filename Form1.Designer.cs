@@ -28,15 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.steamAppDBDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.steamAppDBDataSet = new SteamTierList.SteamAppDBDataSet();
             this.button1 = new System.Windows.Forms.Button();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.steamAppDBDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.steamAppDBDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(157, 132);
             this.dataGridView1.Name = "dataGridView1";
@@ -44,6 +50,16 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(865, 255);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // steamAppDBDataSetBindingSource
+            // 
+            this.steamAppDBDataSetBindingSource.DataSource = this.steamAppDBDataSet;
+            this.steamAppDBDataSetBindingSource.Position = 0;
+            // 
+            // steamAppDBDataSet
+            // 
+            this.steamAppDBDataSet.DataSetName = "SteamAppDBDataSet";
+            this.steamAppDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // button1
             // 
@@ -73,20 +89,21 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Kaydet";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 510);
-            this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.steamAppDBDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.steamAppDBDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -98,6 +115,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.BindingSource steamAppDBDataSetBindingSource;
+        private SteamAppDBDataSet steamAppDBDataSet;
     }
 }
 
